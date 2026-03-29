@@ -6,13 +6,13 @@ getgenv().isRunning = true
 getgenv().scriptConnections = {}
 
 -- 3. Sequential Loader (You MUST keep this exact order!)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Noob1Code/Sailor-Piece-Hub/refs/heads/main/1_Dados.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pecil9uys/ez-ni-ga/refs/heads/main/1_Data.lua"))()
 task.wait(0.1)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Noob1Code/Sailor-Piece-Hub/refs/heads/main/2_Funcoes.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pecil9uys/ez-ni-ga/refs/heads/main/2_Functions.lua"))()
 task.wait(0.1)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Noob1Code/Sailor-Piece-Hub/refs/heads/main/3_Loops.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pecil9uys/ez-ni-ga/refs/heads/main/3_Loops.lua"))()
 task.wait(0.1)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Noob1Code/Sailor-Piece-Hub/refs/heads/main/4_Interface.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pecil9uys/ez-ni-ga/refs/heads/main/4_Interface.lua"))()
